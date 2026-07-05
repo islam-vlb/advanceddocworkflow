@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const content = PRODUCT_CONTENT[product.id];
   return {
     title: `${product.name} — ${BUSINESS.name}`,
-    description: content?.description ?? `${product.name} at ${BUSINESS.name}.`,
+    description: content?.overview ?? `${product.name} at ${BUSINESS.name}.`,
   };
 }
 

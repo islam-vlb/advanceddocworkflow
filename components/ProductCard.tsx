@@ -28,7 +28,7 @@ export default function ProductCard({ product }: { product: Product }) {
       <Link href={`/product/${product.id}`} className="block relative aspect-square overflow-hidden bg-surface">
         <Image
           src={product.image}
-          alt={product.name}
+          alt={product.altText}
           fill
           sizes="(max-width: 768px) 50vw, 25vw"
           className="object-cover group-hover:scale-105 transition-transform duration-700"

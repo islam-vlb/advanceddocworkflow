@@ -52,7 +52,7 @@ export default function Footer() {
           <div className="lg:col-span-4">
             <Link href="/" className="flex items-center gap-2 mb-6">
               <span className="text-primary text-2xl leading-none">&#9670;</span>
-              <span className="font-heading font-semibold text-xl text-white">DocFlow</span>
+              <span className="font-heading font-semibold text-xl text-white">advanceddocumentworkflow</span>
             </Link>
             <p className="text-sm text-text-muted max-w-sm leading-relaxed mb-6">
               Document systems built for operators. SOPs, process maps, and business document kits delivered instantly, so your business runs the same way every time.
@@ -60,7 +60,7 @@ export default function Footer() {
             <div className="space-y-1.5 text-sm text-text-muted mb-6">
               <p>{BUSINESS.phone}</p>
               <p>{BUSINESS.email}</p>
-              <p>Ecom Fire INC, {BUSINESS.address}</p>
+              <p>Logi Depot Inc, {BUSINESS.address}</p>
             </div>
             <PaymentIconsFooter />
           </div>
@@ -120,7 +120,7 @@ export default function Footer() {
 
         <div className="mt-16 pt-8 border-t border-white/10 flex flex-col gap-4">
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
-            <p className="text-sm text-text-muted">© 2026 Ecom Fire INC — {BUSINESS.name}. All rights reserved.</p>
+            <p className="text-sm text-text-muted">© 2026 Logi Depot Inc — {BUSINESS.name}. All rights reserved.</p>
             <p className="text-sm font-bold text-text-muted">Charges appear as {BUSINESS.descriptor} on your statement</p>
           </div>
           <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6">

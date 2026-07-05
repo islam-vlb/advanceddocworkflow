@@ -50,10 +50,10 @@ export default function Header() {
         }`}
       >
         <div className="mx-auto max-w-7xl flex items-center justify-between px-4 sm:px-6 lg:px-8 py-4">
-          <Link href="/" className="flex items-center gap-2 group">
-            <span className="text-primary text-2xl leading-none">&#9670;</span>
-            <span className="font-heading font-semibold text-xl text-navy tracking-tight">DocFlow</span>
-          </Link>
+            <Link href="/" className="flex items-center gap-2 group">
+              <span className="text-primary text-2xl leading-none">&#9670;</span>
+              <span className="font-heading font-semibold text-xl text-navy tracking-tight">advanceddocumentworkflow</span>
+            </Link>
 
           <nav className="hidden md:flex items-center gap-8">
             {NAV.map((n) => (

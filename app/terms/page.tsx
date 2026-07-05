@@ -34,7 +34,7 @@ export default function TermsPage() {
               </p>
               <p>
                 For questions regarding these Terms, contact us at {BUSINESS.email} or {BUSINESS.phone}, or by
-                mail at Ecom Fire INC, {BUSINESS.address}.
+                mail at Logi Depot Inc, {BUSINESS.address}.
               </p>
             </div>
 

@@ -29,7 +29,7 @@ export default function RefundPage() {
             </div>
             <div className="rounded-xl bg-surface border border-navy/10 p-6">
               <p className="text-sm text-text-secondary">
-                Refund correspondence should be sent to Ecom Fire INC, {BUSINESS.address}.
+                Refund correspondence should be sent to Logi Depot Inc, {BUSINESS.address}.
               </p>
             </div>
             <div className="rounded-xl bg-primary/5 border border-primary/20 p-6">

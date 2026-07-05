@@ -18,7 +18,7 @@ export default function PrivacyPage() {
           <div className="prose prose-navy max-w-none">
             <div className="space-y-6 text-sm text-text-secondary leading-relaxed">
               <p>
-                This Privacy Policy describes how {BUSINESS.name}, operated by Ecom Fire INC, collects and uses
+                This Privacy Policy describes how {BUSINESS.name}, operated by Logi Depot Inc, collects and uses
                 your information when you visit or make a purchase from this Site.
               </p>
               <p>
@@ -34,7 +34,7 @@ export default function PrivacyPage() {
               </p>
               <p>
                 For privacy-related questions, contact us at {BUSINESS.email} or {BUSINESS.phone}, or by mail at
-                Ecom Fire INC, {BUSINESS.address}.
+                Logi Depot Inc, {BUSINESS.address}.
               </p>
             </div>
 

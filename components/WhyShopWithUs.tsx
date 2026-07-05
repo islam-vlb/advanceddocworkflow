@@ -42,7 +42,7 @@ export default function WhyShopWithUs() {
   return (
     <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 bg-surface">
       <h2 className="font-heading text-2xl font-bold text-navy sm:text-3xl text-center mb-12">
-        Why operators choose DocFlow
+        Why operators choose advanceddocumentworkflow
       </h2>
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {FEATURES.map((f) => (

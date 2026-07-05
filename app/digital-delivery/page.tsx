@@ -29,7 +29,7 @@ export default function DigitalDeliveryPage() {
                 at {BUSINESS.email} or {BUSINESS.phone}.
               </p>
             </div>
-            <p className="text-sm">Business correspondence: Ecom Fire INC, {BUSINESS.address}.</p>
+            <p className="text-sm">Business correspondence: Logi Depot Inc, {BUSINESS.address}.</p>
           </div>
 
           <div className="mt-16 grid gap-6 sm:grid-cols-3">

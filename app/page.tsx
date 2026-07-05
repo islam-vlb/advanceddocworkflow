@@ -73,7 +73,7 @@ const FEATURES = [
 const FAQS = [
   {
     q: "Is this a physical product?",
-    a: "No. Every product in the DocFlow library is a digital document system — there is nothing physical to ship.",
+    a: "No. Every product in the advanceddocumentworkflow library is a digital document system — there is nothing physical to ship.",
   },
   {
     q: "How do I receive my purchase?",

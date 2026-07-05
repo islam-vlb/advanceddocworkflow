@@ -94,7 +94,7 @@ export default function ContactPage() {
               <div className="mt-6 rounded-2xl bg-surface border border-navy/10 p-6">
                 <h4 className="font-heading text-sm font-semibold text-navy mb-2">Business Correspondence</h4>
                 <p className="text-xs text-text-secondary">
-                  Ecom Fire INC<br />
+                  Logi Depot Inc<br />
                   {BUSINESS.address}
                 </p>
               </div>

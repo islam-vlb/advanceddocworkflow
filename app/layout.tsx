@@ -18,7 +18,7 @@ const body = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "DocFlow — Document Workflows Built For Operators",
+  title: "advanceddocumentworkflow — Document Workflows Built For Operators",
   description: "Premium SOPs, process maps, and business document systems for operators. Instant digital delivery, secure checkout, one-time payments.",
 };
 

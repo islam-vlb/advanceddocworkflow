@@ -22,7 +22,7 @@ export default function FulfillmentPage() {
             </p>
             <div className="rounded-2xl bg-surface border border-navy/10 p-6">
               <p className="text-base font-semibold text-navy">
-                Ecom Fire INC<br />
+                Logi Depot Inc<br />
                 4711 34th St. N. Suite F, St. Petersburg, FL 33714
               </p>
             </div>

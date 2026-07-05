@@ -1,0 +1,18 @@
+export const THEME = {
+  primary: "#D97706",
+  secondary: "#0A1628",
+  bg: "#FAFAF8",
+  dark: "#0A1628",
+  accent: "#B45309",
+  electric: "#92400E",
+  navy: "#0A1628",
+  navyLight: "#16263E",
+  surface: "#F0EFE9",
+  gradient: "linear-gradient(135deg, #D97706 0%, #92400E 100%)",
+  heroStyle: 210,
+  cardStyle: 210,
+  footerStyle: 210,
+  headerStyle: 210,
+  productLayout: 210,
+  darkMode: false,
+};

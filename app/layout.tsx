@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { PlayfairDisplay, Inter } from "next/font/google";
+import { Playfair_Display, Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Providers from "@/components/Providers";
 import ImageErrorHandler from "@/components/ImageErrorHandler";
 
-const heading = PlayfairDisplay({
+const heading = Playfair_Display({
   subsets: ["latin"],
   weight: ["500", "600", "700", "800"],
   variable: "--font-heading",

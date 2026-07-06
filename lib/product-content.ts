@@ -12,125 +12,124 @@ export interface ProductSections {
 export const PRODUCT_CONTENT: Record<number, ProductSections> = {
   1: {
     overview:
-      "The Single-Page SOP Template — Starter is a streamlined document system built for operators who need to capture repeatable procedures without the weight of a full manual. Presented as a clean, structured single page, it gives your team a consistent format for step-by-step instructions, role assignments, approval fields, and troubleshooting notes. Whether you're documenting a daily opening checklist or a quarterly compliance routine, this template keeps everything on one page so it can be printed, pinned, or shared instantly.",
+      "The Single-Page SOP Template — Starter is a precision-engineered document designed for operators who need to capture standard operating procedures without the overhead of a full manual. Packed into one clean, scannable page, it provides structured fields for process steps, responsibility assignments, tool requirements, safety notes, and approval sign-offs. Ideal for daily opening rituals, equipment checks, or safety routines, this template ensures every task is documented consistently and can be printed, pinned, or shared instantly.",
     whatsIncluded: [
-      "One single-page SOP template with guided sections",
-      "Header fields for procedure name, owner, and revision date",
-      "Step-by-step task table with numbering and checkboxes",
-      "Tools, materials, and safety notes section",
-      "Approval and review signature block",
-      "Issue log and corrective action notes area",
+      "One single-page SOP starter template",
+      "Procedure name, owner, and revision date header fields",
+      "Numbered task list with checkbox completion fields",
+      "Required tools, materials, and safety consideration section",
+      "Approval, review, and signature blocks",
+      "Issue tracking and corrective action notes area",
     ],
     templateFeatures: [
       "Standard letter and A4 page layouts",
-      "Pre-defined styles for headings, body text, and callouts",
-      "Editable tables with calculation-ready cells",
-      "Printable in grayscale or color",
+      "Pre-formatted heading and body text styles",
+      "Editable tables with clear column structure",
+      "Print-ready formatting for grayscale or color output",
     ],
     compatibleSoftware: ["Microsoft Word (.docx)", "Google Docs", "Apple Pages", "PDF"],
     idealFor: [
       "Solopreneurs documenting daily operational routines",
       "Small teams standardizing one critical recurring task",
-      "Shift managers needing a printable quick-reference sheet",
+      "Shift managers who need a printable quick-reference sheet",
     ],
     keyBenefits: [
-      "Cuts training time by replacing oral instructions with written steps",
+      "Replaces oral instructions with written, repeatable steps",
       "Ensures consistency across shifts, locations, and staff turnover",
-      "Ready to customize in minutes, no professional designer needed",
-      "Fits on a single page for quick review and deployment",
+      "Customizable in minutes without design software",
+      "Fits on a single page for rapid review and deployment",
     ],
     fileFormats: ["Word (.docx)", "PDF"],
     customizationOptions: [
-      "Add your company logo and brand colors",
-      "Adjust section headings to match internal terminology",
+      "Add company logos and brand color accents",
+      "Adjust section labels to match internal terminology",
       "Insert hyperlinks to training videos or shared drives",
-      "Lock or unlock specific fields for end-user editing",
+      "Lock unused fields while keeping editable sections for the team",
     ],
   },
   2: {
     overview:
-      "The Meeting Agenda Pack (10 Templates) is a curated set of meeting structures designed to replace ad-hoc agendas with consistent, purpose-built formats. From daily standups to quarterly business reviews, each template guides your team through time allocation, discussion topics, decision tracking, and action accountability. The pack gives leaders twelve months of ready-to-use agenda structures that keep meetings on time and on purpose.",
+      "The Meeting Agenda Pack (10 Templates) gives leaders a complete library of structured meeting formats—ten distinct documents built to eliminate ad-hoc agendas and keep every discussion on time and on purpose. From 15-minute daily standups to quarterly business reviews and leadership retrospectives, each template includes time-boxed sections, decision trackers, and action item fields that turn meetings into accountable working sessions.",
     whatsIncluded: [
-      "Ten distinct meeting agenda templates",
-      "Daily standup format (15-minute sync structure)",
-      "Weekly team alignment template",
-      "Monthly planning session agenda",
-      "Quarterly business review format",
+      "Ten meeting agenda templates covering common business meeting types",
+      "Daily standup structure with time-boxed sync fields",
+      "Weekly team alignment and planning session templates",
+      "Monthly review and quarterly business review formats",
       "Leadership and board meeting agenda",
       "Project kickoff meeting structure",
-      "One-on-one meeting template",
+      "One-on-one and mentorship meeting template",
       "Retrospective and post-mortem format",
       "All-hands and town hall agenda",
+      "Decision log and parking lot tracking sections",
     ],
     templateFeatures: [
-      "Consistent header with date, attendees, and objectives",
-      "Time-boxed sections with suggested durations",
-      "Decision log and parking lot sections",
-      "Action item tracker with owner and due date",
-      "Prep checklist sent ahead of the meeting",
+      "Consistent header fields for date, attendees, and meeting objectives",
+      "Time-boxed discussion sections with suggested durations",
+      "Decision tracking and action item owner fields",
+      "Parking lot capture for off-topic items",
     ],
     compatibleSoftware: ["Microsoft Word (.docx)", "Google Docs", "Notion", "Apple Pages", "PDF"],
     idealFor: [
-      "Startup founders running structured meetings",
-      "Operations managers standardizing recurring team syncs",
-      "Department leads who need flexible agenda formats",
+      "Startup founders who run structured recurring meetings",
+      "Operations managers standardizing team syncs across departments",
+      "Executive assistants and department leads",
     ],
     keyBenefits: [
-      "Reduces meeting drift by giving every discussion a time box",
-      "Creates written records so decisions survive staff turnover",
+      "Reduces meeting drift with enforced time allocation",
+      "Creates written records that survive staff turnover",
+      "Professional presentation that reflects well on the meeting host",
       "Covers the most common meeting types in one purchase",
-      "Professional layout that reflects well on the meeting host",
     ],
     fileFormats: ["Word (.docx)", "Google Docs", "Notion", "PDF"],
     customizationOptions: [
-      "Rebrand with your logo and letterhead",
-      "Add or remove sections for your team's workflow",
-      "Create duplicates for recurring meetings (weekly, monthly)",
-      "Integrate with calendar invites by pasting the agenda inline",
+      "Rebrand with company logo and letterhead",
+      "Add or remove sections to match your meeting cadence",
+      "Duplicate templates for weekly, monthly, and quarterly repeats",
+      "Integrate agendas directly into calendar invites",
     ],
   },
   3: {
     overview:
-      "The Project Brief Document Template gives project leads a single, authoritative starting point for every new initiative. Instead of scattering scope, timelines, and ownership across chat threads and emails, this template captures the full project context in one structured document. Stakeholders can approve scope before work starts, and team members can reference the same brief from kickoff to delivery without chasing status updates.",
+      "The Project Brief Document Template gives project leads a single, authoritative starting document for every new initiative. Instead of scattering scope, timelines, and ownership across chat threads and fragmented notes, this template captures the complete project context in one structured layout. Stakeholders can approve scope before work begins, and the brief becomes the single source of truth referenced from kickoff through delivery.",
     whatsIncluded: [
       "One editable project brief document",
       "Project overview and executive summary sections",
-      "Scope definition with in-scope and out-of-scope lists",
-      "Timeline and milestone tracker",
-      "Stakeholder register with ownership and decision rights",
+      "Scope definition with explicit in-scope and out-of-scope lists",
+      "Timeline and milestone tracker table",
+      "Stakeholder and decision-maker register",
       "Budget placeholder and resource allocation section",
       "Risk assessment and mitigation table",
       "Success criteria and acceptance standards",
     ],
     templateFeatures: [
       "Clean, scannable layout with clear visual hierarchy",
-      "Editable tables for timelines and budgets",
+      "Editable tables for timelines, budgets, and milestones",
       "Built-in sign-off section for stakeholder approval",
-      "Conditional formatting-ready structure",
+      "Conditional formatting structure ready for status tracking",
     ],
     compatibleSoftware: ["Microsoft Word (.docx)", "Google Docs", "Notion", "PDF"],
     idealFor: [
-      "Product managers kicking off new features",
-      "Project leads coordinating cross-functional initiatives",
-      "Agencies aligning clients on scope before work begins",
+      "Product managers kicking off new features or initiatives",
+      "Project leads coordinating cross-functional work",
+      "Agencies aligning clients on scope before engagement",
     ],
     keyBenefits: [
       "Prevents scope creep by documenting approvals in writing",
       "Aligns stakeholders before resources are committed",
-      "Provides a single source of truth for the full project lifecycle",
+      "Single source of truth for the full project lifecycle",
       "Professional enough for client presentations",
     ],
     fileFormats: ["Word (.docx)", "Google Docs", "Notion", "PDF"],
     customizationOptions: [
       "Duplicate and save a master template per project type",
-      "Add approval workflows as conditional forms",
+      "Add approval workflows as conditional form fields",
       "Embed links to shared drives and project boards",
       "Adjust sections for different industries or methodologies",
     ],
   },
   4: {
     overview:
-      "The Client Onboarding Document Kit bundles the essential intake, welcome, and expectation-setting templates needed to move a new client from first contact to active engagement without dropping details. Rather than cobbling together forms and emails, this kit gives you a repeatable onboarding workflow that sets clear expectations, collects necessary information, and makes every new client feel professionally welcomed from day one.",
+      "The Client Onboarding Document Kit provides a complete, repeatable onboarding workflow built in Canva-ready format. It bundles every template needed to move a new client from first contact to active engagement—including intake questionnaires, welcome letters, scope of work agreements, communication preference forms, and asset request checklists. Every document follows the same professional tone and branding structure so new clients feel welcomed from day one.",
     whatsIncluded: [
       "Client intake and discovery questionnaire",
       "Welcome letter and onboarding confirmation template",
@@ -142,34 +141,34 @@ export const PRODUCT_CONTENT: Record<number, ProductSections> = {
       "Follow-up and feedback request template",
     ],
     templateFeatures: [
-      "Fillable fields for digital completion",
+      "Canva-ready templates with drag-and-drop editing",
       "Consistent branding and tone across all documents",
-      "Sequential numbering and logical flow",
-      "Email-ready formatting for easy delivery",
+      "Sequential numbering with clear logical flow",
+      "Email-ready formatting for instant delivery",
     ],
     compatibleSoftware: ["Microsoft Word (.docx)", "Google Docs", "Canva", "PDF"],
     idealFor: [
-      "Freelancers and solopreneurs scaling client acquisition",
-      "Agencies standardizing client intake across account managers",
-      "Consultants who need a professional first impression",
+      "Freelancers scaling client acquisition professionally",
+      "Agencies standardizing intake across account managers",
+      "Consultants who need a polished first impression",
     ],
     keyBenefits: [
-      "Reduces onboarding time with a proven, repeatable workflow",
-      "Eliminates follow-up emails asking for missing information",
-      "Projects professionalism and organization to every new client",
-      "Fully customizable to match your service offering",
+      "Reduces onboarding time with a proven reusable workflow",
+      "Eliminates follow-up emails chasing missing information",
+      "Projects organization and professionalism to every new client",
+      "Fully customizable to match your service tiers and brand",
     ],
     fileFormats: ["Word (.docx)", "Google Docs", "Canva", "PDF"],
     customizationOptions: [
       "Add your logo and brand colors to every document",
-      "Customize intake questions to match your service tiers",
+      "Customize intake questions to match service tiers",
       "Create electronic signature fields using DocuSign or similar",
-      "Duplicate for different client types or service lines",
+      "Duplicate templates for different client types or service lines",
     ],
   },
   5: {
     overview:
-      "The Employee Handbook Starter Template provides a professional, structured foundation for documenting company policies, employee conduct expectations, benefits, and onboarding protocols. Designed for businesses that have outgrown verbal policy explanations, this template gives HR leaders and founders a compliant framework that can be customized to reflect your unique culture, benefits, and operational procedures. It balances legal structure with accessible language so employees actually read and understand it.",
+      "The Employee Handbook Starter Template gives founders and HR managers a structured, compliant foundation for documenting company culture, policies, and expectations. It covers everything from employment classifications, codes of conduct, and benefits to health and safety procedures. Written in accessible language, this handbook balances legal structure with readability so employees actually engage with the content rather than skip it.",
     whatsIncluded: [
       "Table of contents with auto-linked sections",
       "Welcome and company mission statement section",
@@ -182,33 +181,33 @@ export const PRODUCT_CONTENT: Record<number, ProductSections> = {
     ],
     templateFeatures: [
       "Modular section layout for easy additions and updates",
-      "Policy numbering system for cross-referencing",
+      "Policy numbering system supporting cross-references",
       "Editable tables for benefits and holiday schedules",
       "Print-ready and email-shareable formats",
     ],
     compatibleSoftware: ["Microsoft Word (.docx)", "Google Docs", "Apple Pages", "PDF"],
     idealFor: [
       "Startup founders building their first employee handbook",
-      "HR managers updating or digitizing an outdated handbook",
-      "Growing teams adding structure to employee onboarding",
+      "HR managers updating an outdated or fragmented handbook",
+      "Growing teams adding structure to onboarding programs",
     ],
     keyBenefits: [
       "Establishes clear expectations and reduces HR ambiguity",
       "Professional appearance that builds employee trust",
-      "Modular design lets you add sections as your company grows",
-      "Legal framework that supports compliance and fair treatment",
+      "Modular design grows with your company",
+      "Legal framework supporting compliance and fair treatment",
     ],
     fileFormats: ["Word (.docx)", "Google Docs", "Apple Pages", "PDF"],
     customizationOptions: [
       "Tailor policies to state and local employment laws",
       "Add company-specific benefits and PTO policies",
       "Include photos, team values, and culture pages",
-      "Create digital versions with clickable table of contents",
+      "Create digital versions with clickable navigation",
     ],
   },
   6: {
     overview:
-      "The Business Process Map Template Set provides a collection of editable flowchart-style templates designed to visualize how work actually moves through your organization. Rather than describing processes in paragraphs, these maps give teams a visual language for handoffs, decision points, approvals, and bottlenecks. Use them to document existing workflows, identify inefficiencies, and train new hires on how work should flow from step to step.",
+      "The Business Process Map Template Set gives teams a visual language for documenting how work moves through the organization. Rather than describing processes in paragraphs, these editable flowchart templates capture handoffs, decision points, approvals, and bottlenecks as clean diagrammatic maps. Use them to document existing workflows, identify inefficiencies, and train new hires on how work is intended to flow.",
     whatsIncluded: [
       "Linear process flow template",
       "Swimlane cross-functional map template",
@@ -220,10 +219,10 @@ export const PRODUCT_CONTENT: Record<number, ProductSections> = {
       "Process improvement before-and-after map",
     ],
     templateFeatures: [
-      "Drag-and-drop flowchart shapes and connectors",
+      "Editable flowchart shapes and connector lines",
       "Color-coded swimlanes for different departments",
-      "Decision diamond templates with Yes / No paths",
-      "Connection lines that snap to grid for clean alignment",
+      "Decision diamond templates with Yes and No paths",
+      "Grid-snap connection lines for clean alignment",
     ],
     compatibleSoftware: ["Microsoft Visio", "Lucidchart", "Diagram.net", "Canva", "PowerPoint"],
     idealFor: [
@@ -235,11 +234,11 @@ export const PRODUCT_CONTENT: Record<number, ProductSections> = {
       "Turns tribal knowledge into visual instructions anyone can follow",
       "Exposes bottlenecks and redundancies in existing workflows",
       "Professional enough for board presentations and audits",
-      "Saves hours of manual diagramming",
+      "Saves hours of manual diagramming from scratch",
     ],
     fileFormats: ["Visio (.vsdx)", "PDF", "PowerPoint (.pptx)", "Canva"],
     customizationOptions: [
-      "Adjust shapes, colors, and labels to match your branding",
+      "Adjust shapes, colors, and labels to match branding",
       "Add or remove process steps as workflows evolve",
       "Export as high-resolution images for presentations",
       "Link to supporting documents in shared workspaces",
@@ -247,7 +246,7 @@ export const PRODUCT_CONTENT: Record<number, ProductSections> = {
   },
   7: {
     overview:
-      "The Standard Operating Procedure Library (20 SOPs) is the most practical entry point into formalized operations. This collection includes twenty ready-to-customize SOPs covering the functions most businesses need documented immediately—from employee onboarding and customer support to inventory management and quality assurance. Each SOP follows a consistent structure, so your team learns one format and applies it everywhere.",
+      "The Standard Operating Procedure Library (20 SOPs) is the fastest way to move from tribal knowledge to documented operations. This collection includes twenty ready-to-customize SOPs spanning the most common business functions—from employee onboarding and customer support to inventory management and quality assurance. Every SOP follows the same disciplined structure, so teams learn one format and apply it consistently across the entire organization.",
     whatsIncluded: [
       "Customer onboarding SOP",
       "New hire onboarding SOP",
@@ -283,8 +282,8 @@ export const PRODUCT_CONTENT: Record<number, ProductSections> = {
       "Founders who need documented processes before hiring",
     ],
     keyBenefits: [
-      "Twenty core SOPs for the price of one, covering your busiest functions",
-      "Consistent structure means zero format debates",
+      "Twenty core SOPs covering your busiest functions",
+      "Consistent structure eliminates format debates",
       "Ready to customize and deploy immediately",
       "Builds a culture of written accountability",
     ],
@@ -298,7 +297,7 @@ export const PRODUCT_CONTENT: Record<number, ProductSections> = {
   },
   8: {
     overview:
-      "The Department Operations Manual Template gives department leads a structured, organized manual framework for documenting how their team operates day to day. Whether you're in operations, customer success, marketing, or finance, this template helps you capture responsibilities, workflows, key metrics, and team rhythms in one place. It's designed to be handed to a new manager or department head so they can understand and inherit the operation without a multi-month transition period.",
+      "The Department Operations Manual Template gives department leads a structured framework for documenting how their team operates day to day. Whether you run operations, customer success, marketing, or finance, this template helps you capture responsibilities, workflows, key metrics, and team rhythms in one place. It can be handed to a new manager so they can understand and inherit the operation without a multi-month transition period.",
     whatsIncluded: [
       "Department overview and mission section",
       "Team structure and reporting lines",
@@ -325,7 +324,7 @@ export const PRODUCT_CONTENT: Record<number, ProductSections> = {
       "Accelerates manager onboarding by weeks instead of months",
       "Creates a durable record that survives turnover",
       "Aligns the team on roles, metrics, and escalation paths",
-      "Professional document suitable for review by leadership",
+      "Professional document suitable for leadership review",
     ],
     fileFormats: ["Word (.docx)", "Google Docs", "Notion", "PDF"],
     customizationOptions: [
@@ -337,7 +336,7 @@ export const PRODUCT_CONTENT: Record<number, ProductSections> = {
   },
   9: {
     overview:
-      "The Vendor & Supplier Agreement Framework provides structured templates for formalizing vendor and supplier relationships with clear terms, responsibilities, and evaluation criteria. Whether you're onboarding a new software provider or reviewing a physical supplier contract, this framework ensures every relationship starts with mutual understanding—covering service levels, confidentiality, payment terms, and performance evaluation in one organized package.",
+      "The Vendor & Supplier Agreement Framework provides structured, clause-ready templates for formalizing vendor and supplier relationships with clear terms, responsibilities, and evaluation criteria. Whether onboarding a new software provider or reviewing a physical supplier contract, this framework ensures every relationship starts with mutual understanding—covering service levels, confidentiality, payment terms, and performance evaluation in one organized package.",
     whatsIncluded: [
       "Standard vendor service agreement template",
       "Master service agreement outline",
@@ -357,7 +356,7 @@ export const PRODUCT_CONTENT: Record<number, ProductSections> = {
     compatibleSoftware: ["Microsoft Word (.docx)", "Google Docs", "PDF"],
     idealFor: [
       "Procurement teams formalizing vendor relationships",
-      "Operations managers managing multiple suppliers",
+      "Operations managers overseeing multiple suppliers",
       "Legal and compliance teams standardizing contract review",
     ],
     keyBenefits: [
@@ -376,9 +375,9 @@ export const PRODUCT_CONTENT: Record<number, ProductSections> = {
   },
   10: {
     overview:
-      "The Complete HR Document Pack is a comprehensive collection of hiring, onboarding, and personnel documentation templates designed for growing teams that have outgrown ad-hoc processes. From job descriptions and offer letters to performance reviews and offboarding checklists, this pack gives HR managers and founders a complete document library that stays consistent from candidate outreach through employee exit. Every template is written in clear, compliant language and formatted for professional presentation.",
+      "The Complete HR Document Pack is a comprehensive collection of hiring, onboarding, and personnel documentation templates designed for growing teams that have outgrown ad-hoc processes. From job descriptions, offer letters, and NDAs to performance reviews and offboarding checklists, this pack gives HR managers and founders a complete document library that stays consistent from candidate outreach through employee exit.",
     whatsIncluded: [
-      "Job description templates (multiple roles)",
+      "Job description templates for multiple role types",
       "Employment offer letter template",
       "New hire paperwork checklist",
       "Employee personal information form",
@@ -390,15 +389,15 @@ export const PRODUCT_CONTENT: Record<number, ProductSections> = {
       "Final pay and return-of-property form",
     ],
     templateFeatures: [
-      "Compliant language optimized for US employment standards",
+      "Compliant language aligned with US employment standards",
       "Consistent formatting across all HR documents",
-      "Checklist-style layouts for onboarding and exit",
+      "Checklist-style layouts for onboarding and exit flows",
       "Signature-ready agreement templates",
     ],
     compatibleSoftware: ["Microsoft Word (.docx)", "Google Docs", "PDF"],
     idealFor: [
       "Growing startups building their first HR library",
-      "Small business owners managing hiring without HR staff",
+      "Small business owners managing hiring without dedicated HR staff",
       "HR managers standardizing people operations",
     ],
     keyBenefits: [
@@ -417,7 +416,7 @@ export const PRODUCT_CONTENT: Record<number, ProductSections> = {
   },
   11: {
     overview:
-      "The Business Playbook Template System is a structured framework for capturing how your business actually runs, department by department. Rather than storing tribal knowledge in individual heads, this system gives founders and operators a repeatable playbook format that covers everything from marketing workflows to sales scripts, customer support protocols, and product release procedures. It's the closest thing to a written business operating system.",
+      "The Business Playbook Template System is a structured framework for capturing how your business actually runs, department by department. Rather than storing institutional knowledge in individual heads, this system gives founders and operators a repeatable playbook format covering marketing workflows, sales scripts, customer support protocols, and product release procedures. It is the closest thing to a written operating system for your business.",
     whatsIncluded: [
       "Core business playbook structure and table of contents",
       "Marketing playbook section template",
@@ -456,7 +455,7 @@ export const PRODUCT_CONTENT: Record<number, ProductSections> = {
   },
   12: {
     overview:
-      "The Full Operations Document Suite combines standard operating procedures, process maps, and operations manuals into a single comprehensive package for teams standardizing their operations end to end. Rather than buying these components separately, this suite gives you a unified library where every SOP, process map, and manual follows the same structure. It is the right choice for operations teams that have moved beyond patchwork documentation and are ready for a cohesive system.",
+      "The Full Operations Document Suite combines standard operating procedures, process maps, and operations manuals into a single comprehensive package for teams ready to standardize end to end. Rather than buying components separately, this suite delivers a unified library where every SOP, process map, and manual follows the same structure. It is the right choice for operations teams that have moved beyond patchwork documentation and are ready for a cohesive system.",
     whatsIncluded: [
       "Twenty canonical SOP templates",
       "Eighteen process map templates (flowcharts and swimlanes)",
@@ -487,7 +486,7 @@ export const PRODUCT_CONTENT: Record<number, ProductSections> = {
     ],
     fileFormats: ["Word (.docx)", "Google Docs", "Visio (.vsdx)", "Notion", "PDF"],
     customizationOptions: [
-      "Add or remove SOPs based on your operational priorities",
+      "Add or remove SOPs based on operational priorities",
       "Create department-specific sub-libraries",
       "Brand the entire suite with your company standards",
       "Link process maps to their corresponding SOP pages",
@@ -612,7 +611,7 @@ export const PRODUCT_CONTENT: Record<number, ProductSections> = {
   },
   16: {
     overview:
-      "The Ultimate Workflow & Operations System is the most comprehensive document and operations package available, combining every template, SOP, and process map into a single end-to-end operations system. This is the system for organizations that are no longer experimenting with documentation and are ready to deploy a complete, structured infrastructure that covers onboarding, operations, quality, compliance, and continuous improvement. It is the operational backbone that fast-growing businesses outgrow everything else to acquire.",
+      "The Ultimate Workflow & Operations System is the most comprehensive document and operations package available, combining every template, SOP, and process map into a single end-to-end operations system. This is the system for organizations that are no longer experimenting with documentation and are ready to deploy a complete, structured infrastructure covering onboarding, operations, quality, compliance, and continuous improvement.",
     whatsIncluded: [
       "All fifty-plus document templates from the full catalog",
       "All SOP systems and process map libraries",
@@ -638,7 +637,7 @@ export const PRODUCT_CONTENT: Record<number, ProductSections> = {
       "Consultants delivering turnkey operational systems to clients",
     ],
     keyBenefits: [
-      "The only purchase you need for a complete operations library",
+      "The only purchase needed for a complete operations library",
       "Eliminates search costs and integration gaps between systems",
       "Designed for scale, audit, and investor readiness",
       "Future-proof with included updates and new template access",

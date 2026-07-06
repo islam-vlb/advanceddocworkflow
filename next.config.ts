@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   output: "standalone",
   outputFileTracingRoot: process.cwd(),
   images: {
-    remotePatterns: [],
+    unoptimized: true,
   },
 };
 

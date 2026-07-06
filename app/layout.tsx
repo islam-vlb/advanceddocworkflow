@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Inter } from "next/font/google";
+import { PlayfairDisplay, Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Providers from "@/components/Providers";
+import ImageErrorHandler from "@/components/ImageErrorHandler";
 
-const heading = Playfair_Display({
+const heading = PlayfairDisplay({
   subsets: ["latin"],
   weight: ["500", "600", "700", "800"],
   variable: "--font-heading",
@@ -33,6 +34,7 @@ export default function RootLayout({
         className={`${heading.variable} ${body.variable} font-body antialiased text-navy`}
       >
         <Providers>
+          <ImageErrorHandler />
           <Header />
           <main className="min-h-screen">{children}</main>
           <Footer />

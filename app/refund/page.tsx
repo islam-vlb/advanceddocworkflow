@@ -18,7 +18,8 @@ export default function RefundPage() {
             <div className="rounded-xl bg-primary/5 border border-primary/20 p-6">
               <p>
                 All products sold on this Site are digital documents delivered by email. There are no physical
-                items and nothing to return. Refunds may be requested within 30 days from the date of purchase.
+                 items and nothing to return. Refunds may be requested within 30 days from the date your order is received.
+                 Refunds apply to all used and unused products.
               </p>
             </div>
             <div className="rounded-xl bg-primary/5 border border-primary/20 p-6">

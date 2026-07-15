@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { useCart } from "@/lib/cart-context";
 import { useWishlist } from "@/lib/wishlist-context";
+import { useAuth } from "@/lib/auth-context";
 
 const NAV = [
   { href: "/", label: "Home" },
@@ -20,6 +21,7 @@ export default function Header() {
   const searchRef = useRef<HTMLInputElement>(null);
   const { totalItems, openCart } = useCart();
   const { ids } = useWishlist();
+  const { user, logout } = useAuth();
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -113,9 +115,34 @@ export default function Header() {
               )}
             </button>
 
+            {user ? (
+              <div className="hidden sm:flex items-center gap-1 ml-1">
+                <Link
+                  href="/dashboard"
+                  className="min-h-[44px] inline-flex items-center justify-center rounded-full px-4 py-2.5 text-sm font-semibold text-text-secondary hover:text-primary transition-colors"
+                >
+                  Dashboard
+                </Link>
+                <button
+                  type="button"
+                  onClick={() => logout()}
+                  className="min-h-[44px] inline-flex items-center justify-center rounded-full bg-navy px-5 py-2.5 text-sm font-semibold text-white hover:bg-navy-light transition-colors"
+                >
+                  Logout
+                </button>
+              </div>
+            ) : (
+              <Link
+                href="/login"
+                className="hidden sm:inline-flex min-h-[44px] items-center justify-center rounded-full bg-navy px-5 py-2.5 ml-2 text-sm font-semibold text-white hover:bg-navy-light transition-all duration-300"
+              >
+                Login
+              </Link>
+            )}
+
             <Link
               href="/shop"
-              className="hidden sm:inline-flex min-h-[44px] items-center justify-center rounded-full bg-navy px-5 py-2.5 ml-2 text-sm font-semibold text-white hover:bg-navy-light transition-all duration-300"
+              className="hidden lg:inline-flex min-h-[44px] items-center justify-center rounded-full border-2 border-navy/15 px-5 py-2.5 ml-2 text-sm font-semibold text-navy hover:bg-navy/5 transition-all duration-300"
             >
               Browse Library
             </Link>
@@ -210,11 +237,36 @@ export default function Header() {
               <Link href="/wishlist" onClick={() => setOpen(false)} className="py-3 px-4 text-text-secondary hover:text-primary hover:bg-primary/5 rounded-xl transition-colors font-medium">
                 Wishlist
               </Link>
-              <div className="mt-4 pt-4 border-t border-navy/10">
+              {user && (
+                <Link href="/dashboard" onClick={() => setOpen(false)} className="py-3 px-4 text-text-secondary hover:text-primary hover:bg-primary/5 rounded-xl transition-colors font-medium">
+                  Dashboard
+                </Link>
+              )}
+              <div className="mt-4 pt-4 border-t border-navy/10 space-y-3">
+                {user ? (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      logout();
+                      setOpen(false);
+                    }}
+                    className="flex items-center justify-center w-full min-h-[44px] rounded-full bg-navy px-4 py-3 text-sm font-semibold text-white"
+                  >
+                    Logout
+                  </button>
+                ) : (
+                  <Link
+                    href="/login"
+                    onClick={() => setOpen(false)}
+                    className="flex items-center justify-center min-h-[44px] rounded-full bg-navy px-4 py-3 text-sm font-semibold text-white"
+                  >
+                    Login
+                  </Link>
+                )}
                 <Link
                   href="/shop"
                   onClick={() => setOpen(false)}
-                  className="flex items-center justify-center min-h-[44px] rounded-full bg-navy px-4 py-3 text-sm font-semibold text-white"
+                  className="flex items-center justify-center min-h-[44px] rounded-full border-2 border-navy/15 px-4 py-3 text-sm font-semibold text-navy"
                 >
                   Browse Library
                 </Link>

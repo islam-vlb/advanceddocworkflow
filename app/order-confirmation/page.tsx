@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { BUSINESS } from "@/lib/config";
 
@@ -10,27 +12,25 @@ export default function OrderConfirmationPage() {
         </svg>
       </div>
       <h1 className="font-heading text-3xl font-bold text-navy mb-4">Thank You For Your Order</h1>
-      <p className="text-text-secondary mb-2">
-        Order #DF-{Math.floor(100000 + Math.random() * 900000)}
-      </p>
       <p className="text-text-secondary mb-3">
         Your order has been received and a confirmation email will be sent to you shortly.
       </p>
       <p className="text-sm text-text-muted mb-8">
-        Your digital document system will be delivered to your email instantly. Questions? Contact us at {BUSINESS.email} or {BUSINESS.phone}.
+        Your digital document system is available for download in your Dashboard.{" "}
+        Questions? Contact us at {BUSINESS.email} or {BUSINESS.phone}.
       </p>
       <div className="flex flex-col sm:flex-row gap-3 justify-center">
         <Link
-          href="/shop"
+          href="/dashboard"
           className="inline-flex items-center justify-center rounded-full bg-navy px-8 py-3.5 text-sm font-semibold text-white hover:bg-navy-light transition-all duration-300"
         >
-          Continue Shopping
+          Go to Dashboard
         </Link>
         <Link
-          href="/"
+          href="/shop"
           className="inline-flex items-center justify-center rounded-full border-2 border-navy/15 px-8 py-3.5 text-sm font-semibold text-navy hover:bg-navy/5 transition-colors"
         >
-          Back to Home
+          Continue Shopping
         </Link>
       </div>
     </div>

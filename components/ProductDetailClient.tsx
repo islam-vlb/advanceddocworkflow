@@ -151,7 +151,7 @@ export default function ProductDetailClient({ product, related }: ProductDetailC
       content: (
         <>
           <p className="text-sm text-text-secondary leading-relaxed">
-            This is a fully digital product. Your purchase is delivered instantly to the email address provided at checkout, along with clear download and access instructions. There is nothing physical to ship, and you can begin customizing your documents immediately after purchase.
+            This is a fully digital product. Your purchase is delivered instantly to the email address provided at checkout, along with clear download and access instructions. There is nothing physical to ship, and you can begin customizing your documents immediately after purchase. After purchase, access anytime in your Dashboard.
           </p>
           <div className="mt-4 grid gap-4 sm:grid-cols-3">
             {DELIVERY_STEPS.map((s) => (

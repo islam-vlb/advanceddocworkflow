@@ -20,8 +20,13 @@ const STEPS = [
   },
   {
     step: "03",
-    title: "Deploy Across Your Team",
-    desc: "Receive instant access by email and begin customizing your documents the same day — no waiting, no onboarding calls required.",
+    title: "Create Your Account",
+    desc: "Register (or log in) right after checkout to link your order to your Dashboard — takes less than a minute.",
+  },
+  {
+    step: "04",
+    title: "Download & Deploy",
+    desc: "Access and download every document system you've purchased anytime from your Dashboard, and put it to work with your team the same day.",
   },
 ];
 
@@ -95,6 +100,10 @@ const FAQS = [
     q: "Do the business kits include more than one document?",
     a: "Yes. Business Kits bundle multiple related SOPs, templates, and process maps into a single organized system covering a full business function.",
   },
+  {
+    q: "How do I access my downloads after purchase?",
+    a: "Create a free account (or log in) after checkout and every document system you've purchased will be available to download anytime from your Dashboard.",
+  },
 ];
 
 export default function HomePage() {
@@ -111,7 +120,7 @@ export default function HomePage() {
           <div className="mb-16">
             <h2 className="font-heading text-3xl font-bold text-navy sm:text-4xl mb-4">How It Works</h2>
             <p className="text-lg text-text-secondary max-w-2xl">
-              From selecting a system to putting it in front of your team — three steps, beginning to end.
+              From selecting a system to putting it in front of your team — four steps, beginning to end.
             </p>
           </div>
           <div className="space-y-12">
